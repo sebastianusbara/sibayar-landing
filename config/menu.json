@@ -1,0 +1,48 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Tentang Kami",
+      "url": "/tentang-kami"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Company",
+      "menu": [
+        {
+          "text": "Tentang Kami",
+          "url": "/tentang-kami"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "menu": [
+        {
+          "text": "Sibayar",
+          "url": "#"
+        },
+        {
+          "text": "PT Digital Voucher Market Bersama",
+          "url": "#"
+        },
+        {
+          "text": "Telp : +62-21-12345678",
+          "url": "#"
+        },
+        {
+          "text": "Email: info@sibayar.id",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}
