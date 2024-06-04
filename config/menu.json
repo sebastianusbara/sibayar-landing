@@ -5,6 +5,10 @@
       "url": "/"
     },
     {
+      "name": "Transaksi",
+      "url": "/login"
+    },
+    {
       "name": "Tentang Kami",
       "url": "/tentang-kami"
     },

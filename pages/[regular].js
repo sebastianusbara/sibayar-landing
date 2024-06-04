@@ -4,6 +4,7 @@ import Contact from "@layouts/Contact";
 import Default from "@layouts/Default";
 import Faq from "@layouts/Faq";
 import Pricing from "@layouts/Pricing";
+import Login from "@layouts/Login"
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
 
 // for all regular pages
@@ -25,6 +26,8 @@ const RegularPages = ({ data }) => {
         <NotFound data={data} />
       ) : layout === "contact" ? (
         <Contact data={data} />
+      ) : layout === "login" ? (
+        <Login data={data} />
       ) : layout === "pricing" ? (
         <Pricing data={data} />
       ) : layout === "faq" ? (

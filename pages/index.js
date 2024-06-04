@@ -10,7 +10,7 @@ import "swiper/swiper.min.css";
 import { getListPage } from "../lib/contentParser";
 
 const Home = ({ frontmatter }) => {
-  const { banner, feature, services, workflow, call_to_action } = frontmatter;
+  const { banner, feature, services, partners, workflow, call_to_action } = frontmatter;
   const { title } = config.site;
 
   return (
@@ -113,9 +113,8 @@ const Home = ({ frontmatter }) => {
 
                 {/* Content */}
                 <div
-                  className={`service-content mt-5 md:mt-0 ${
-                    !isOdd && "md:order-1"
-                  }`}
+                  className={`service-content mt-5 md:mt-0 ${!isOdd && "md:order-1"
+                    }`}
                 >
                   <h2 className="font-bold leading-[40px]">{service?.title}</h2>
                   <p className="mt-4 mb-2">{service?.content}</p>
@@ -125,6 +124,7 @@ const Home = ({ frontmatter }) => {
                       className="cta-link inline-flex items-center text-primary"
                     >
                       {service?.button.label}
+
                       <Image
                         className="ml-1"
                         src="/images/arrow-right.svg"
@@ -140,6 +140,25 @@ const Home = ({ frontmatter }) => {
           </section>
         );
       })}
+
+      {/* Game Partners */}
+      <section className="section bg-theme-light">
+        <div
+          className="container">
+          <h2 className="font-bold text-center">{partners?.title}</h2>
+          <div className="grid grid-cols-6 gap-8 mt-8">
+            {partners.images.map((image, index) => (
+              <Image
+                key={index}
+                src={image}
+                width={100}
+                height={100}
+                alt={`Image ${index}`}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* workflow */}
       {/* <section className="section pb-0">

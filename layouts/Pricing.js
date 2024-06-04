@@ -1,6 +1,18 @@
 import Link from "next/link";
 import Cta from "./components/Cta";
 
+const Dialog = ({ onClose }) => (
+  <div className="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center">
+    <div className="bg-white p-5 rounded-lg shadow-lg">
+      <h2 className="text-lg font-bold mb-4">Dialog Title</h2>
+      <p className="mb-4">This is the dialog content.</p>
+      <button onClick={onClose} className="bg-blue-500 text-white py-2 px-4 rounded">
+        Close
+      </button>
+    </div>
+  </div>
+);
+
 function Pricing({ data }) {
   const {
     frontmatter: { title, plans, call_to_action },
