@@ -1,11 +1,11 @@
 # Base image
 FROM node:18-alpine AS base
 
-# Install dependencies only when needed
+# Install system dependencies
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
-# Install dependencies based on the preferred package manager
+# Install dependencies based on the available lock file
 COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* ./
 RUN if [ -f yarn.lock ]; then \
         yarn --frozen-lockfile; \
@@ -19,8 +19,10 @@ RUN if [ -f yarn.lock ]; then \
 
 # Rebuild the source code only when needed
 FROM base AS builder
-COPY --from=deps /app/node_modules ./node_modules
+# Here we copy the node_modules from the previous stage, which was named 'base'
+COPY --from=base /app/node_modules ./node_modules
 COPY . .
+
 RUN if [ -f yarn.lock ]; then \
         yarn build; \
     elif [ -f package-lock.json ] || [ -f pnpm-lock.yaml ]; then \
@@ -40,9 +42,9 @@ WORKDIR /app
 USER nextjs
 EXPOSE 3000
 
-# Copy necessary directories
-COPY --from=builder --chown=nextjs:nodejs /app/public ./public
-COPY --from=builder --chown=nextjs:nodejs /app/.next ./.next
+# Copy necessary directories from the 'builder' stage
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next ./.next
 
-# Start the application
+# Ensure to specify the correct path for the Next.js server script
 CMD ["node", ".next/standalone/server.js"]
