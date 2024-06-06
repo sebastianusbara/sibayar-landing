@@ -4,15 +4,15 @@ FROM node:14
 # Set the working directory
 WORKDIR /app
 
-# Copy package.json and install dependencies
-COPY package.json yarn.lock ./
-RUN yarn install
+# Copy package.json (and package-lock.json if available) and install dependencies
+COPY package.json package-lock.json* ./
+RUN npm install
 
 # Bundle app source
 COPY . .
 
 # Build your Next.js app
-RUN yarn build
+RUN npm run build
 
 # Start the Next.js app
-CMD ["yarn", "start"]
+CMD ["npm", "start"]
