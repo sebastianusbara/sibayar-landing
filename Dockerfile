@@ -19,9 +19,11 @@ RUN if [ -f yarn.lock ]; then \
 
 # Rebuild the source code only when needed
 FROM base AS builder
-# Here we copy the node_modules from the previous stage, which was named 'base'
 COPY --from=base /app/node_modules ./node_modules
 COPY . .
+
+# Set environment variable for Next.js build
+ENV NEXT_PRIVATE_STANDALONE true
 
 RUN if [ -f yarn.lock ]; then \
         yarn build; \
@@ -46,5 +48,5 @@ EXPOSE 3000
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next ./.next
 
-# Ensure to specify the correct path for the Next.js server script
-CMD ["node", ".next/standalone/server.js"]
+# Start the application
+CMD ["node", "server.js"]
