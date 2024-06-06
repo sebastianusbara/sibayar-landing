@@ -10,10 +10,7 @@ services:
     networks:
       - webnet
   nextjs:
-    build: .  # Look for a Dockerfile in the current directory
-    volumes:
-      - .:/app  # Mounts the current directory to /app in the container
-      - /app/node_modules  # Ensures node_modules are not overwritten by the host's node_modules
+    build: .
     environment:
       - NODE_ENV=production
     networks:
