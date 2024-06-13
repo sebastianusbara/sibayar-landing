@@ -16,7 +16,12 @@ faqs:
   answer: Semua warung, toko kelontong, kios pinggir jalan, perseorangan dan lain-lain yang memiliki lokasi permanen maupun semi permanen dapat bergabung sebagai Mitra Sibayar.
 
 - title: Bagaimana cara saya bergabung sebagai Mitra Sibayar?
-  answer: Silakan sampaikan informasi nama & alamat toko, kami akan segera memproses permintaan tersebut. Setelah itu, berikut adalah langkah-langkah yang akan kamu jalani
+  answer: |
+    Silakan sampaikan informasi nama & alamat toko, kami akan segera memproses permintaan tersebut. Setelah itu, berikut adalah langkah-langkah yang akan kamu jalani:</br></br>
+
+    1. Tim sales Sibayar akan mendatangi toko kamu</br>
+    2. Tim sales akan mendaftarkan data warung/toko kamu untuk mendapatkan akses ke web sibayar.id</br>
+    3. Akun kamu sudah berhasil dibuat! Silakan login
 
 - title: Bagaimana cara kerja Sibayar sebagai aplikasi pembayaran via QR?
   answer: Sibayar menerima pembayaran via kode QR dari berbagai e-money yang sudah bekerjasama dengan cara scan kode QR.
