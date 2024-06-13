@@ -19,27 +19,9 @@
   ],
   "footer": [
     {
-      "name": "Company",
       "menu": [
-        {
-          "text": "Solusi Kami",
-          "url": "/solusi-kami"
-        }
-      ]
-    },
-    {
-      "name": "Contact",
-      "menu": [
-        {
-          "text": "Sibayar",
-          "url": "#"
-        },
         {
           "text": "PT Digital Voucher Market Bersama",
-          "url": "#"
-        },
-        {
-          "text": "Telp : +62-21-12345678",
           "url": "#"
         },
         {

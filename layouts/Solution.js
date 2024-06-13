@@ -5,13 +5,13 @@ function Solution({ data }) {
   const { title, solution, intro } = frontmatter;
   return (
     <section className="section">
-      <div className="container">
+      <div className="container max-w-[1020px]">
         {markdownify(title, "h1", "text-center font-normal")}
         {markdownify(intro, "p", "text-center font-normal mt-8")}
         <div className="section row  -mt-6">
           {solution.map((item, index) => (
-            <div key={index} className="col-12 mt-6 md:col-6">
-              <div className="p-12 shadow h-[200px]">
+            <div key={index} className="col-12 mt-6 md:col-4">
+              <div className="p-12 shadow">
                 <div className="faq-head relative">
                   {markdownify(item.title, "h4")}
                 </div>

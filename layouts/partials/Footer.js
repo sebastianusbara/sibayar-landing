@@ -14,34 +14,25 @@ const Footer = () => {
       <div className="container">
         {/* footer menu */}
         <div className="row">
-          {footer.map((col) => {
-            return (
-              <div className="mb-12 sm:col-6 lg:col-4" key={col.name}>
-                {markdownify(col.name, "h2", "h4")}
-                <ul className="mt-6">
-                  {col?.menu.map((item) => (
-                    <li className="mb-1" key={item.text}>
-                      <Link href={item.url} rel="">
-                        {item.text}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            );
-          })}
           {/* social icons */}
-          <div className="md-12 sm:col-6 lg:col-3">
+          <div className="md-12 sm:col-12 lg:col-12 text-center max-w-[600px] mx-auto">
             <Link href="/" aria-label="Sibayar">
               <Image
+                className="mx-auto"
                 src={config.site.logo}
                 width={config.site.logo_width}
                 height={config.site.logo_height}
                 alt=""
               />
             </Link>
-            {markdownify(footer_content, "p", "mt-3 mb-6")}
-            <Social source={social} className="social-icons mb-8" />
+            <h4>
+              PT Digital Voucher Market Bersama
+            </h4>
+            {markdownify(footer_content, "p", "mt-3")}
+            <Social source={social} className="social-icons" />
+            <p class="mb-6">
+              Email: info@sibayar.id
+            </p>
           </div>
         </div>
         {/* copyright */}
