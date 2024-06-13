@@ -17,11 +17,11 @@ function Cta({ cta }) {
             />
           </div> */}
           <div className="mt-5 text-center md:mt-0 md:text-left md:col-6 lg:col-5">
-            <h2>{cta?.title}</h2>
-            <p className="mt-6">{markdownify(cta?.content)}</p>
+            <h2 className="text-center">{cta?.title}</h2>
+            <p className="text-center mt-6">{markdownify(cta?.content)}</p>
             {cta.button.enable && (
               <Link
-                className="btn btn-primary mt-4"
+                className="block mx-auto w-[160px] text-center btn btn-primary mt-8"
                 href={cta.button.link}
                 rel={cta.button.rel}
               >
