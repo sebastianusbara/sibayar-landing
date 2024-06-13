@@ -6,7 +6,7 @@
     "logo": "/images/logo.png",
     "logo_width": "200",
     "logo_height": "48",
-    "logo_text": "Bigspring Light"
+    "logo_text": "Sibayar"
   },
 
   "settings": {
@@ -29,8 +29,8 @@
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Sibayar",
     "meta_image": "",
-    "meta_description": "A SAAS template for nextjs"
+    "meta_description": "PT Digital Voucher Market Bersama (SIBAYAR) adalah perusahaan yang bergerak di bidang penyediaan jasa penjualan voucher game online. Kami menjual voucher game kepada reseller yang kemudian mendistribusikannya kepada konsumen akhir. Dengan fokus pada efisiensi dan kemudahan akses, kami berkomitmen untuk menyediakan produk voucher game yang dapat memenuhi kebutuhan pasar game online di Indonesia."
   }
 }
