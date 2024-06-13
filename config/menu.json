@@ -1,20 +1,20 @@
 {
   "main": [
     {
-      "name": "Home",
-      "url": "/"
+      "name": "Solusi Kami",
+      "url": "/solusi-kami"
     },
     {
       "name": "Transaksi",
       "url": "/login"
     },
     {
-      "name": "Tentang Kami",
-      "url": "/tentang-kami"
-    },
-    {
       "name": "Contact",
       "url": "/contact"
+    },
+    {
+      "name": "FAQ",
+      "url": "/faq"
     }
   ],
   "footer": [
@@ -22,8 +22,8 @@
       "name": "Company",
       "menu": [
         {
-          "text": "Tentang Kami",
-          "url": "/tentang-kami"
+          "text": "Solusi Kami",
+          "url": "/solusi-kami"
         }
       ]
     },

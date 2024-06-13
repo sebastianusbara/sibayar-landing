@@ -107,8 +107,16 @@
 }
 
 //contact
-.contact-list {
+ul.contact-list {
   a {
     @apply font-semibold text-dark;
+  }
+
+  li {
+    padding-left: 0;
+  }
+
+  li:before {
+    display: none;
   }
 }
