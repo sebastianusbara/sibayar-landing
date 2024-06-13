@@ -1,5 +1,4 @@
 import { markdownify } from "@lib/utils/textConverter";
-import { useState } from 'react';
 
 function Faq({ data }) {
   const { frontmatter } = data;
