@@ -1,28 +1,11 @@
 ---
 banner:
   title: PT Digital Voucher Market Bersama
-  content: PT Digital Voucher Market Bersama adalah perusahaan yang bergerak di bidang penyediaan jasa penjualan voucher game online. Kami menjual voucher game kepada reseller yang kemudian mendistribusikannya kepada konsumen akhir. Dengan fokus pada efisiensi dan kemudahan akses, kami berkomitmen untuk menyediakan produk voucher game yang dapat memenuhi kebutuhan pasar game online di Indonesia.
+  content: Sibayar adalah merek yang dimiliki dan dikelola oleh PT Digital Voucher Market Bersama berkedudukan di Jakarta. <br> PT Digital Voucher Market Bersama merupakan Merchant Aggregator QRIS.<br> <br>Sibayar menyediakan solusi pembayaran yang tepat dan dapat diandalkan untuk mendukung kesuksesan Mitra Bisnis, hanya dengan scan kode QR, dan juga Mitra Bisnis bisa mengelola kebutuhan bisnis secara realtime mulai dari status transaksi dan laporan transaksi, dalam satu bisnis portal yang bisa diakses kapan saja dan dimana saja.
   image: /images/banner.svg
   button:
     label: "Contact Us"
     link: "/contact"
-
-# feature
-feature: 
-  title: Keunggulan Kompetitif
-  features:
-  - name: "Varietas Produk"
-    icon: "/images/code.svg"
-    content: "Menyediakan berbagai macam voucher game dari berbagai platform dan genre."
-  - name: "Harga Kompetitif"
-    icon: "/images/oop.svg"
-    content: "Menawarkan harga yang bersaing bagi para reseller, memungkinkan mereka untuk mendapatkan margin keuntungan yang baik."
-  - name: "Layanan Pelanggan"
-    icon: "/images/user-clock.svg"
-    content: "Dukungan pelanggan yang siap membantu setiap saat untuk memastikan pengalaman pembelian yang memuaskan."
-  - name: "Kemitraan Strategis"
-    icon: "/images/love.svg"
-    content: "Bekerja sama dengan pengembang dan distributor game ternama untuk menyediakan produk terbaru dan terpopuler di pasar."
 
 # services
 services:
