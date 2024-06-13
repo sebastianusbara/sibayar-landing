@@ -3,21 +3,37 @@ title: Frequently Asked Questions
 layout: faq
 draft: false
 faqs:
-- title: Will updates also be free?
-  answer: Lorem, [link](https://www.example.com) ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!
+- title: Apa itu Sibayar?
+  answer: Sibayar adalah merchant aggregator, aplikasi pembayaran via QR untuk pelaku usaha segala segmen.
 
-- title: Discounts for students and Non Profit Organizations?
-  answer: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus [link](https://www.example.com) ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!
+- title: Apa itu Sibayar sebagai Merchant Aggregator?
+  answer: Sibayar sebagai merchant aggregator merekrut toko-toko untuk menerima pembayaran via Sibayar. Merchant yang sudah menerima pembayaran via QR Sibayar disebut sebagai “Mitra Sibayar”.
 
-- title: I need something unique, Can you make it?
-  answer: Lorem, [link](https://www.example.com) ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!
+- title: Siapa saja yang bisa menjadi pengguna Sibayar?
+  answer: Semua pemilik usaha baik UMKM, merchant modern, maupun e-commerce bisa menjadi pengguna Sibayar. Sibayar akan memberikan alat pendukung penerimaan pembayaran.
 
-- title: Is there any documentation and support?
-  answer: Lorem, [link](https://www.example.com) ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!
+- title: Siapa yang bisa bergabung menjadi Mitra Sibayar?
+  answer: Semua warung, toko kelontong, kios pinggir jalan, perseorangan dan lain-lain yang memiliki lokasi permanen maupun semi permanen dapat bergabung sebagai Mitra Sibayar.
 
-- title: Any refunds?
-  answer: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus [link](https://www.example.com) ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!
+- title: Bagaimana cara saya bergabung sebagai Mitra Sibayar?
+  answer: Silakan sampaikan informasi nama & alamat toko, kami akan segera memproses permintaan tersebut. Setelah itu, berikut adalah langkah-langkah yang akan kamu jalani
 
-- title: What is a product key?
-  answer: Lorem, [link](https://www.example.com) ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!
+- title: Bagaimana cara kerja Sibayar sebagai aplikasi pembayaran via QR?
+  answer: Sibayar menerima pembayaran via kode QR dari berbagai e-money yang sudah bekerjasama dengan cara scan kode QR.
+
+- title: Apa itu kode QR Sibayar?
+  answer: Toko yang sudah bergabung bersama Sibayar akan mendapatkan satu kode QR sebagai identitas toko sekaligus alat penerima pembayaran dari pembeli. Jadi, pembeli hanya perlu scan kode QR toko ketika membayar dan uangnya otomatis akan masuk ke Omzet toko.
+
+- title: Apa itu 'Saldo'?
+  answer: Saldo adalah hasil penjualan barang dagangan untuk semua jenis transaksi yang diterima dan dapat dicairkan ke rekening Bank atas nama pemilik merchant.
+
+- title: Apa yang saya dapatkan dengan bergabung sebagai Mitra Sibayar?
+  answer: |
+    Kamu akan mendapat banyak keuntungan dengan gabung sebagai Mitra Sibayar, antara lain:</br></br>
+    
+    1. Tidak perlu repot menerima uang tunai atau menyiapkan uang kembalian</br>
+    2. Membantu monitor penerimaan karena Sibayar mencatat semua transaksi kamu yang dilakukan lewat Sibayar
+
+- title: Apakah menerima transaksi lewat Sibayar akan dikenakan biaya?
+  answer: Ya, kamu akan dikenakan MDR (Merchant Discount Rate) yang harus kamu bayarkan kepada Sibayar untuk setiap nominal transaksi yang diterima melalui Sibayar
 ---
