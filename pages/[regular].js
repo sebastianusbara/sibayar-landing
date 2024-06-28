@@ -4,6 +4,9 @@ import Contact from "@layouts/Contact";
 import Default from "@layouts/Default";
 import Faq from "@layouts/Faq";
 import Pricing from "@layouts/Pricing";
+import Reseller from "@layouts/Reseller";
+import Join from "@layouts/Join";
+import Terms from "@layouts/Terms";
 import Login from "@layouts/Login";
 import Solution from "@layouts/Solution";
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
@@ -33,8 +36,14 @@ const RegularPages = ({ data }) => {
         <Pricing data={data} />
       ) : layout === "faq" ? (
         <Faq data={data} />
+      ) : layout === "terms" ? (
+        <Terms data={data} />
+      ) : layout === "reseller" ? (
+        <Reseller data={data} />
       ) : layout === "solution" ? (
         <Solution data={data} />
+      ) : layout === "join" ? (
+        <Join data={data} />
       ) : (
         <Default data={data} />
       )}

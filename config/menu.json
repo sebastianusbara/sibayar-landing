@@ -5,16 +5,16 @@
       "url": "/solusi-kami"
     },
     {
-      "name": "Transaksi",
-      "url": "/login"
+      "name": "Join Reseller",
+      "url": "/join"
+    },
+    {
+      "name": "Reseller",
+      "url": "/reseller"
     },
     {
       "name": "Contact",
       "url": "/contact"
-    },
-    {
-      "name": "FAQ",
-      "url": "/faq"
     }
   ],
   "footer": [
