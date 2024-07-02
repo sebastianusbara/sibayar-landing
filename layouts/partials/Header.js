@@ -85,9 +85,11 @@ const Header = () => {
                     <Link
                       href={menu.url}
                       onClick={() => setNavOpen(false)}
-                      className={`nav-link block ${
-                        router.asPath === menu.url ? "nav-link-active" : ""
-                      }`}
+                      className={`nav-link block 
+                        ${router.asPath === menu.url ? "nav-link-active" : ""}
+                        ${menu.isDisabled ? "pointer-events-none" : ""}`
+                      }
+                      passHref={false}
                     >
                       {menu.name}
                     </Link>

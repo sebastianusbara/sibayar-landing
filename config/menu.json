@@ -5,12 +5,13 @@
       "url": "/solusi-kami"
     },
     {
-      "name": "Join Mitra Sibayar",
+      "name": "Daftar Mitra Sibayar",
       "url": "/join"
     },
     {
       "name": "Voucher Game",
-      "url": "/#"
+      "url": "/#",
+      "isDisabled": true
     },
     {
       "name": "Contact",

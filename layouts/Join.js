@@ -19,7 +19,7 @@ const Join = ({ data }) => {
             </Link>
             <Link href="/ketentuan-layanan" className="mt-5 p-12 block shadow w-[360px] text-2xl">
                 <span className="faq-head relative">
-                    Ketentutan Layanan
+                    Ketentuan Layanan
                 </span>
             </Link>
             <Link href="/kebijakan-privasi" className="mt-5 p-12 block shadow w-[360px] text-2xl">
