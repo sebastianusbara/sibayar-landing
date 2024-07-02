@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link';
 
 function Reseller({ data }) {
   const { frontmatter } = data;
@@ -24,6 +25,9 @@ function Reseller({ data }) {
                         />
                         ))}
                     </div>
+                    <Link className="btn block w-full btn-primary text-center mt-20" href="https://qris-payment.vercel.app">
+                        Masuk sebagai Reseller
+                    </Link>
                 </div>
             </div>
             <div className="col-6 pl-4">

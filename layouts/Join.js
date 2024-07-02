@@ -100,7 +100,7 @@ const Join = ({ data }) => {
                 <span className="mr-2">
                     Sudah punya akun?
                 </span>
-                <Link className="text-teal-600 underline" href="/login">
+                <Link className="text-teal-600 underline" href="https://qris-payment.vercel.app">
                     Masuk Sekarang
                 </Link>
             </div>
