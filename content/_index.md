@@ -79,12 +79,4 @@ workflow:
   image: "/images/banner.svg"
   description: ""
 
-# call_to_action
-call_to_action:
-  title: Ready to get started?
-  content: Mari berdiskusi bagaimana kami bisa membantumu menjadi Mitra Bisnis Sibayar. Sibayar berkomitmen untuk mendukung perkembangan industri game di Indonesia melalui penyediaan solusi pembayaran yang tepat dan dapat diandalkan.
-  button:
-    enable: true
-    label: "Contact Us"
-    link: "/contact"
 ---
