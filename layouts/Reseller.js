@@ -25,7 +25,7 @@ function Reseller({ data }) {
                         />
                         ))}
                     </div>
-                    <Link className="btn block w-full btn-primary text-center mt-20" href="https://qris-payment.vercel.app">
+                    <Link className="btn block w-full btn-primary text-center mt-20" href="https://sibayar.id/dashboard/auth/signin">
                         Masuk sebagai Reseller
                     </Link>
                 </div>

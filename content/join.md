@@ -1,6 +1,8 @@
 ---
 title: "Daftar Mitra Sibayar"
 layout: "join"
+link: https://sibayar.id/dashboard/auth/signup?fromLandingPage=true
+description: Daftar menjadi mitra Sibayar untuk mengakses fitur menarik dan kesempatan menjadi reseller.
 draft: false
 info: 
   title: Why you should contact us!
