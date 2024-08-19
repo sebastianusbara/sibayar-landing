@@ -30,12 +30,12 @@ const Join = ({ data }) => {
           </div>
           <div className="col-12 md:col-6 lg:col-6">
           {markdownify(title, "h2", "font-normal mb-5")}
-            <form
+            <div
               className="contact-form"
-              method="POST"
-              action={contact_form_action}
+              // method="POST"
+              // action={contact_form_action}
             >
-                <div className="mb-5 row">
+                {/* <div className="mb-5 row">
                     <div className="col-6">
                         <input
                             className="form-input w-full rounded"
@@ -91,16 +91,20 @@ const Join = ({ data }) => {
                   placeholder="Konfirmasi Password"
                   required
                 />
-              </div>
-              <button type="submit" className="btn block w-full btn-primary">
+              </div> */}
+              <img className="h-[160px] mb-4" src="/images/banner-art.svg" />
+              <p class="mb-4 max-w-[420px]">
+                Daftar menjadi mitra Sibayar untuk mengakses fitur menarik dan kesempatan menjadi reseller.
+              </p>
+              <Link href="https://sibayar.id/dashboard/auth/signup" type="submit" className="text-center btn block w-full btn-primary">
                 Daftar Sekarang
-              </button>
-            </form>
+              </Link>
+            </div>
             <div className="mt-5 text-center">
                 <span className="mr-2">
                     Sudah punya akun?
                 </span>
-                <Link className="text-teal-600 underline" href="https://qris-payment.vercel.app">
+                <Link className="text-teal-600 underline" href="https://sibayar.id/dashboard/auth/signin?fromLandingPage=true">
                     Masuk Sekarang
                 </Link>
             </div>
